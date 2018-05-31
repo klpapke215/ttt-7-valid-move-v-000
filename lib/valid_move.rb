@@ -7,6 +7,3 @@ else
   false
 end
 end
-
-
-
