@@ -1,7 +1,8 @@
 def valid_move?(board, index)
   if board[index] == (0 - 8) && board[index] == " " || "  "
   true
-elsif board[index] == "X" || "O"
+else
   false
 end
 end
+
