@@ -11,9 +11,9 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-  if position_taken? == true
-    false
-elsif board[index] == (0 - 8) && board[index] == " " || "  "
-true
+  if board[index] == (0 - 8) && board[index] == " " || "  "
+  true
+elsif position_taken?(board, index) == true
+  false
   end
 end
